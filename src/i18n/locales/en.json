@@ -1,0 +1,9 @@
+{
+  "welcome": "Welcome Back to eSanad",
+  "login": {
+    "submit": "Submit",
+    "email_required": "Email is required"
+  },
+  "items": "You have {{count}} item",
+  "items_plural": "You have {{count}} items"
+}

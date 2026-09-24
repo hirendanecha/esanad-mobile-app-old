@@ -1,0 +1,28 @@
+import { StyleSheet } from 'react-native';
+import { moderateScale, verticalScale } from '@constants/metrics';
+import { getBottomMargin } from '@utils/paddingBottom';
+
+const style = theme =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+    },
+    inner: {
+      flexGrow: 1,
+      backgroundColor: theme.colors.backgroundColor,
+      borderRadius: verticalScale(7),
+      marginHorizontal: verticalScale(20),
+      marginBottom: getBottomMargin(),
+      borderWidth: 1,
+      borderColor: theme.colors.border,
+      overflow: 'hidden',
+    },
+    stepIndicatorWrapper: {
+      alignItems: 'center',
+      marginTop: verticalScale(20),
+      marginBottom: verticalScale(10),
+      paddingHorizontal: verticalScale(30),
+    },
+  });
+
+export default style;
