@@ -1,0 +1,9 @@
+{
+    "welcome": "مرحبًا بك في eSanad",
+    "login": {
+        "submit": "تسجيل",
+        "email_required": "البريد الإلكتروني مطلوب"
+    },
+    "items": "لديك {{count}} عنصر",
+    "items_plural": "لديك {{count}} عناصر"
+}

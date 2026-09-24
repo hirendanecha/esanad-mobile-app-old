@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingScreen Component renders correctly and matches snapshot 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "flex": 1,
+      "gap": 29,
+      "justifyContent": "center",
+    }
+  }
+>
+  <FastImage
+    resizeMode="contain"
+    source={
+      {
+        "testUri": "../../../src/assets/images/common/motor-loading.gif",
+      }
+    }
+    style={
+      {
+        "height": 337.5,
+        "width": 600,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "gap": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Inter",
+          "fontSize": 26,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Sit back and relax.
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontFamily": "Inter",
+          "fontSize": 26,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      We're finding your data...
+    </Text>
+  </View>
+  <Text
+    style={
+      {
+        "color": "black",
+        "fontFamily": "Inter",
+        "fontSize": 23,
+        "fontWeight": "400",
+      }
+    }
+  >
+    It might take a minute.
+  </Text>
+</View>
+`;
