@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogInScreen Integration Tests renders correctly and matches snapshot 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          {
+            "height": "100%",
+            "marginTop": -458,
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            {
+              "testUri": "../../../src/assets/images/vectorBg.png",
+            }
+          }
+          style={
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              {
+                "height": "100%",
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "flex": 1,
+            "gap": 29,
+            "justifyContent": "center",
+            "padding": 29,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            {
+              "testUri": "../../../src/assets/images/loginBG.png",
+            }
+          }
+          style={
+            {
+              "alignSelf": "center",
+              "height": 358,
+              "width": "100%",
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "gap": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "black",
+                "fontFamily": "Lato-Bold",
+                "fontSize": 29,
+                "textAlign": "center",
+              }
+            }
+          >
+            Log in
+          </Text>
+          <Text
+            style={
+              {
+                "color": undefined,
+                "fontFamily": "Lato-Regular",
+                "fontSize": 20,
+                "textAlign": "center",
+              }
+            }
+          >
+            We’ll send you a code to verify your account
+          </Text>
+        </View>
+        <TextInput
+          onChangeText={[Function]}
+          testID="country-phone-input"
+          value=""
+        />
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "blue",
+              "borderRadius": 12,
+              "height": 72,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "flexDirection": "row",
+                "gap": 15,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "gray",
+                    "fontFamily": "Lato-Bold",
+                    "fontSize": 29,
+                    "textAlign": "center",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Submit
+            </Text>
+            <Icon
+              color="gray"
+              name="arrow-up-right"
+              size={36}
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "gap": 29,
+              "justifyContent": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
